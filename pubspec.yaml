@@ -1,0 +1,98 @@
+name: ostello_mentor
+description: Ostello's official Mobile Application
+publish_to: 'none'
+version: 1.1.8+38
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uuid: ^3.0.7
+  intl: ^0.18.1
+  provider: ^6.0.5
+  url_launcher: ^6.1.11
+  image_picker: ^0.8.7+5
+  mobile_scanner: ^3.2.0
+  country_pickers: ^2.0.0
+  cupertino_icons: ^1.0.5
+  page_transition: ^2.0.9
+  socket_io_client: ^2.0.2
+  flutter_slidable: ^3.0.0
+  flutter_animate: ^4.1.1+1
+  flutter_markdown: ^0.6.14
+  flutter_rating_bar: ^4.0.1
+  shared_preferences: ^2.1.1
+  font_awesome_flutter: ^10.4.0
+  detectable_text_field: ^2.1.0
+  custom_navigation_bar: ^0.8.2
+  smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.1
+  fast_cached_network_image: ^1.2.0
+  flutter_svg: ^2.0.6
+  share_plus: ^7.0.1
+  video_player: ^2.6.1
+  geolocator: ^9.0.2
+  dio: ^5.1.2
+  connectivity_plus: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icons/
+    - assets/images/mentor/
+    - assets/images/profile/
+    - assets/images/homepage/
+    - assets/images/error_page/
+    - assets/images/introductory/success_page/
+    - assets/images/introductory/splash_screen/
+    - assets/images/test/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 900
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/gotham/Gotham-Black.otf
+          weight: 900
+        - asset: assets/fonts/gotham/GothamBold.ttf
+          weight: 700
+        - asset: assets/fonts/gotham/GothamMedium.ttf
+          weight: 500
+        - asset: assets/fonts/gotham/GothamBook.ttf
+          weight: 400
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/dmsans/DMSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/dmsans/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/dmsans/DMSans-Regular.ttf
+          weight: 400
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  adaptive_icon_background: #ffffff
+  image_path: "assets/images/icons/ic_launcher.png"
+  min_sdk_android: 21
